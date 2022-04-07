@@ -25,6 +25,8 @@ public class CategoryController {
    
   static final Logger log = Logger.getLogger(CategoryController.class);
   
+  //comment
+  
   @RequestMapping(value = "/saveOrUpdateCategory", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE) 
   public void saveOrUpdateCategory(@RequestBody Category category) throws Exception {
   
